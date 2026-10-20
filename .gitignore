@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large local datasets
+data/raw/*
+data/processed/*
+
+# Keep data folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environment secrets
+.env
+.aws/
+
+# OS and editor files
+.DS_Store
+.vscode/
