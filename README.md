@@ -180,6 +180,20 @@ The cleaning script creates the processed Parquet file, the SQL script runs the 
 - Add automated data-quality tests and validation checks.
 - Compare results across multiple months to investigate changes in trip activity.
 - Document findings and recommendations for operational planning.
+## Interactive Dashboard
+
+Explore the interactive dashboard built with Google Looker Studio and powered by Google BigQuery.
+
+**[View the NYC Yellow Taxi Analytics Dashboard](https://datastudio.google.com/reporting/f1778b62-444b-45fa-ad8d-4dabfd7f8be9)**
+
+![NYC Yellow Taxi Analytics Dashboard](docs/dashboard.png)
+
+The dashboard highlights:
+- Total taxi trips during August 2026
+- Average trip distance
+- Average trip fare and total amount
+- Taxi trip volume by pickup hour
+- Average trip amount by pickup hour
 
 ## Author
 
